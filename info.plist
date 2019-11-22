@@ -38,7 +38,7 @@
 	<key>createdby</key>
 	<string>zzetao</string>
 	<key>description</key>
-	<string>Run Javascript</string>
+	<string>Run code</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -157,7 +157,11 @@
 			<integer>135</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/zzetao/alfred-code-runner</string>
 </dict>
 </plist>
