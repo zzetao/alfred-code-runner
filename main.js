@@ -6,8 +6,10 @@ const vm = require('./vm')
 
 actionHandler.onAction('js', function(query) {
 	try {
+		var startTime = new Date()
 		var result = vm.run(query)
-		let subtitle = 'Copy to Clipboard'
+		var duration = ((new Date()).getTime() - startTime.getTime()) / 1000
+		var subtitle = 'Copy to Clipboard  |  ' + duration + ' seconds'
 
 		if (typeof result !== 'string') {
 			result = result.toString()
