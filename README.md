@@ -1,6 +1,6 @@
 # Alfred Code Runner
 
-[> Download](https://raw.github.com/zzetao/alfred-code-runner/release)
+[> Download](https://github.com/zzetao/alfred-code-runner/releases/latest)
 
 ### Preview
 
