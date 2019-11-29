@@ -92,7 +92,7 @@
 			<key>uid</key>
 			<string>A82657B9-3A2C-4845-BBE6-6A21A3F1D5A7</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -101,8 +101,6 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -141,7 +139,7 @@
 			<key>uid</key>
 			<string>122BD7AD-3175-4C1D-B3CD-614E3DC77AA0</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -150,8 +148,6 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -197,7 +193,7 @@ echo $runner-&gt;execute($argv[1]);
 			<key>uid</key>
 			<string>08492AC9-96C3-44F5-A523-CBA10871C90E</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -233,8 +229,6 @@ echo $runner-&gt;execute($argv[1]);
 			<integer>135</integer>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>0.0.2</string>
 	<key>webaddress</key>
