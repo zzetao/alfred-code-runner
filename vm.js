@@ -1,6 +1,6 @@
 const { VM } = require('vm2')
 
-function getSandbox(names = []) {
+function getModules(names = []) {
 	let data = {}
 	for (let index in names) {
 		const name = names[index]
@@ -9,7 +9,7 @@ function getSandbox(names = []) {
 	return data
 }
 
-const sandbox = getSandbox([
+const modules = getModules([
 	'child_process',
 	'cluster',
 	'crypto',
@@ -26,6 +26,12 @@ const sandbox = getSandbox([
 	'url',
 	'util'
 ])
+
+const sandbox = Object.assign({}, modules, {
+	'btoa': (str) => Buffer.from('' + str, 'binary').toString('base64'), // encode
+	'atob': (str) => Buffer.from(str, 'base64').toString('binary'), // decode
+	'Buffer': Buffer
+})
 
 module.exports = new VM({
 	timeout: 1000,
