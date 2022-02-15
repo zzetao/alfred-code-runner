@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "alfred-workflow-nodejs": "^2.0.1",
-    "vm2": "^3.8.4"
+    "vm2": "^3.9.6"
   },
   "repository": {
     "type": "git",
